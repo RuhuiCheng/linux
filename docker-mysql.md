@@ -28,6 +28,6 @@ docker run -d -p 3306:3306 --privileged=true -v /docker/mysql/conf/my.cnf:/etc/m
 ```
 ### 参数说明：
 
---privileged=true：容器内的root拥有真正root权限，否则容器内root只是外部普通用户权限
--v /docker/mysql/conf/my.cnf:/etc/my.cnf：映射配置文件
--v /docker/mysql/data:/var/lib/mysql：映射数据目录
+--privileged=true：容器内的root拥有真正root权限，否则容器内root只是外部普通用户权限 
+-v /docker/mysql/conf/my.cnf:/etc/my.cnf：映射配置文件 
+-v /docker/mysql/data:/var/lib/mysql：映射数据目录 
