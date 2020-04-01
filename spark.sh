@@ -9,3 +9,10 @@
 # 3. UI for hdfs and spark
 http://myspark.com:50070
 http://myspark.com:4040
+
+-------------------------------------------
+# start elastic_search
+# 1 run as es user
+su es
+# 2 start es service
+/opt/elk/es-node/bin/elasticsearch -d
