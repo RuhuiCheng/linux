@@ -21,4 +21,15 @@ export PATH=/mnt/c/linux/opt/apache-maven-3.6.0/bin:$PATH
 export SPARK_HOME=/mnt/c/linux/opt/spark-2.3.3-bin-hadoop2.7
 export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.7-src.zip:$PYTHONPATH
 export PYSPARK_PYTHON=/home/crh/miniconda3/envs/progress-report/bin/python
-export PATH=$SPARK_HOME/bin:$SPARK_HOME/python:$PATH 
+export PATH=$SPARK_HOME/bin:$SPARK_HOME/python:$PATH
+
+### conda
+export PATH="/home/crh/miniconda3/bin:$PATH"
+
+###  SBT
+export SBT_HOME="/home/crh/app/sbt-0.13.13"
+export PATH="$SBT_HOME/bin:$PATH"
+
+### scala
+export SCALA_HOME="/home/crh/app/scala-2.11.12"
+export PATH="$SCALA_HOME/bin:$PATH"
